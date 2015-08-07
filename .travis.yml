@@ -10,7 +10,7 @@ deploy:
     email: slobak@gmail.com
     skip_cleanup: true
     api_key:
-      secure: QX5VFzswWnqzlwzb3w/OkpDLZLKgddOEUmM6OeOCfnuanuQYBPghyeEQFDEebkCRxqf6sOfYTKKenk6+afLa7VtyVadnAuEgGsZn8WficeLtThw6CcmYukdOEdmWFQO0RjrauRbcch5ndXC3aHxWj//e7vZtDp+Rs3smn34XcKg=
+      secure: gHsk15gRBw+OtV4LWmmpb41+sdy/XJhZyi6ZwHNSestpVYUw667jnwEaBQQ4L1osgZf6h2ShDI7pQgSdF3WpWDZTTngQGCo5FE2dgffWGoSOje+oh9PErloTjiMg9xCnw9K1CfS7H2pEk//WUsOzBvMJREZQPMVjF3JqqoVtGNSKdxkjBFPRfwfHQCyZa8gbf+ROn74nbrsCHBmFkOjgWdl9rbPoI2oIDBT+R2PaYimVZxz/MkycAdIpUQ0FJRvCp6+nOplHKFF3/XA3oYDMItnYOn9qtup1ahNezbV8cTry+HFKTs8GUykRq9JrzdbgTVZ9h80PjKnTR/KSfZ5ZucqHiAF/ZuSuQh89CCa+EAttqxXMYPLJWWS7xJE8LI10aHy2kA9ilCceorpgz8NLfMX5EwVl69cAdnlGuVgMymdiqx1ddgtVFdj6JWx3b/w18AMP3gQC/Z2tmiJmM4KJ7vfhMHD1Mb9z9a4IjQnxcRkyAUdhDNpA9m1QbFJg5qtWiBn45OVn6bjKmp+ddLmR931bY1xyq3jzhsOb4EAJlmQRiENGsU6O82b2lyA7gRNlafnom5kknUkXA4JQS7XyhrbGBjtvWVC33LepmLO297MBL4YJexKf2rJbKZsUDvJHAGvsICGb1TSP1xsL9JNRRCrh3KlY4Iap2AB6ouozRKM=
     on:
       branch: master
       repo: Asana/node-asana-phrase
