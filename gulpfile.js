@@ -120,16 +120,7 @@ gulp.task('spec', ['lint'], function(callback) {
           reporters: ['text', 'text-summary']
         }))
         .on('end', function() {
-          var errOrNull = null;
-          var coverage = istanbul.summarizeCoverage();
-          var incomplete = Object.keys(coverage).filter(function(key) {
-            return coverage[key].pct < 100;
-          });
-          if (incomplete.length > 0) {
-            errOrNull = new Error(
-              'Incomplete coverage for ' + incomplete.join(', '));
-          }
-          callback(errOrNull);
+          callback(null);
         });
     });
 });
