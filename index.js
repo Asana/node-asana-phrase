@@ -1,9 +1,9 @@
 
-var Factory = require('./factory');
-var Dictionary = require('./dictionary');
-var NumberRange = require('./number_range');
-var WordGenerator = require('./word_generator');
-var dictionaries = require('./dictionaries');
+var Factory = require('./lib/factory');
+var Dictionary = require('./lib/dictionary');
+var NumberRange = require('./lib/number_range');
+var WordGenerator = require('./lib/word_generator');
+var dictionaries = require('./lib/dictionaries');
 
 /**
  * The default 32-bit phrase generator, which creates fun and easy-to-remember
