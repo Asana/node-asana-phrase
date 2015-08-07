@@ -1,0 +1,17 @@
+{
+  "name": "asana-phrase",
+  "version": "1.0.0",
+  "description": "Random error phrase generator used by Asana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asana",
+    "error",
+    "phrase",
+    "random"
+  ],
+  "author": "Greg Slovacek",
+  "license": "MIT"
+}
