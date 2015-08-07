@@ -1,6 +1,6 @@
 {
   "name": "asana-phrase",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Random error phrase generator used by Asana",
   "main": "index.js",
   "scripts": {

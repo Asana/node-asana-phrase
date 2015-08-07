@@ -14,6 +14,16 @@ deploy:
     on:
       branch: master
       repo: Asana/node-asana-phrase
+  - provider: releases
+    skip_cleanup: true
+    api_key:
+      secure: Tq2D7MSkxmh34fIxnAymrXc8tkL3BhXrKZg4wyD3DHduck8PUi4jAKrfkcXaS/Z/a4+8oGMIAp56miXMRbXPiDoidsoOTALFlsZguH5ASbpZwiQUXsp301x6A2854MvacGM8Dkrk8MsBx4o9bNUKHyqKzGfQWy1RR7sHUt/B9vnCgCrniQnj/nloWqyYxFnwD6Eap2yDcY+mNwt40eJdLx/+WZ3j5ozGU3yM3dGobWwizjFf/m5dUh5OFbwSLYzc1X9XT0CwMR//Q3uLKAfhP6LXu+QNcsb0qhB1RTK7mIJYaiMpBrQiEKMJwlv33ALjTk5l9sWEZ8A+ijAm8D13f8Ez3l/vZCD42ND3Q8/sVjnZoCpIjmkXHo1NC3dWoGqTAansNwJroKH55Jz9tD2/gC4eRenu/MT5h1r4je2eFq1dwbbQm62Z4BmTQCZXEzpJUpH9Izl7ZVkbTg7jZfnbXE6VRuTUuU/sTvfA7uUmGqHIeOtOrEHq6KRzwkM5GbRGMH9/0Qyjpz6OH7+vd0CJW00L8EvbrA1ws9M9BHqhhYtMsb7gL8mbr1jykp6aHxEKnd6yA2IEXvbolaVFkU50ev+FdrRxsDmkIIsN0XSxn41IFyP4Eyu+o3tfOeCzuuxQZM5jB7JL13QHIEgM2SZRXJevsx6aiz7bF6AMnQpVMnU=
+    file:
+      - dist/asana-phrase.js
+      - dist/asana-phrase-min.js
+    on:
+      branch: master
+      repo: Asana/node-asana-phrase
 after_deploy:
 - git config --global user.email "git@asana.com"
 - git config --global user.name "Asana"
