@@ -1,7 +1,6 @@
-# Asana [![GitHub release](https://img.shields.io/github/release/asana/node-asana-phrase.svg)]() [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url]
+# Asana Error Phrase Factory [![GitHub release](https://img.shields.io/github/release/asana/node-asana-phrase.svg)]() [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url]
 
-A random error phrase generator used to create memorable error codes,
-as used by Asana.
+A random phrase generator used to create memorable error codes, as used by Asana.
 
 ## Installation
 
