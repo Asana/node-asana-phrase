@@ -1,4 +1,4 @@
-# Asana Error Phrase Factory [![GitHub release](https://img.shields.io/github/release/asana/node-asana-phrase.svg)]() [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url]
+# Asana Error Phrase Factory [![GitHub release][release-image]() [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url]
 
 A random phrase generator used to create memorable error codes, as used by Asana.
 
@@ -74,3 +74,11 @@ factory.randomPhrase();
 If you want some logic that isn't based on making sequential numbers or
 choosing words from a dictionary, it's very easy to make your own word generator.
 Simply subclass `WordGenerator` and fulfill its simple contract.
+
+[travis-url]: http://travis-ci.org/Asana/node-asana-phrase
+[travis-image]: http://img.shields.io/travis/Asana/node-asana-phrase.svg?style=flat-square
+
+[npm-url]: https://www.npmjs.org/package/asana-phrase
+[npm-image]: http://img.shields.io/npm/v/asana-phrase.svg?style=flat-square
+
+[release-image]: https://img.shields.io/github/release/asana/node-asana-phrase.svg
