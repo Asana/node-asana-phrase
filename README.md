@@ -1,4 +1,4 @@
-# Asana Error Phrase Factory [![GitHub release][release-image]() [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url]
+# Asana Error Phrase Factory [![GitHub release][release-image]]() [![Build Status][travis-image]][travis-url] [![NPM Version][npm-image]][npm-url]
 
 A random phrase generator used to create memorable error codes, as used by Asana.
 
