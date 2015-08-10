@@ -28,13 +28,10 @@ OR
 
 ## Overview
 
-This package is designed to convert integers into human-readable phrases,
+This package is designed to convert large numbers (like IDs) into human-readable phrases,
 which are more entertaining and memorable, and suitable for error codes.
 
-Currently it only supports numbers that could be represented in JavaScript
-integers, which is up to 53-bits. We could extend this library to support
-arbitrary-length strings to be encoded as phrases instead if we wanted to,
-e.g., represent cryptographic keys like 128-bit hashes.
+The package can support conversion of numbers of arbitrary length if represented as a hex string, as well as integers up to 53 bits. The default phrase factory provided converts 32-bit numbers, but custom ones can be created to work with larger bit sizes.
 
 It operates on a simple bitwise substitution principle, so given a particular
 phrase factory, there is a deterministic way to map any set of bits into a
@@ -53,7 +50,7 @@ phrase.default32BitFactory().randomPhrase();
 ```
 
 If you want to customize the generated phrases (or create ones with a larger
-bit space, up to 53 bits), you can very easily add your own word generators.
+bit space), you can very easily add your own word generators.
 There are two predefined types of word generator: `Dictionary` and `NumberRange`,
 which you can plug into the `Factory` to make your own combinations. You can
 also access the dictionaries that comprise the default phrase factory so you
